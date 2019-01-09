@@ -14,6 +14,10 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+
+  someFunction() {
+    
+  }
   onGoToCookingDishes(){
     this.navCtrl.push(CookingDishesPage);
   }
